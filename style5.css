@@ -1,0 +1,180 @@
+html{
+    scroll-behavior: smooth;
+}
+/* Reset dan font */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Warna dasar */
+body {
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* HEADER */
+header {
+    background-color: #173B64;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nama {
+    text-align: left;
+}
+
+.nama h1 {
+    font-size: 1.8em;
+}
+
+.nama p {
+    font-size: 1em;
+}
+
+/* NAVBAR */
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    color: #c1e727ff;
+}
+
+/* CONTAINER UTAMA */
+.countainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+/* KOLOM atas (Foto dan info dasar) */
+.top {
+    flex: 1 1 250px;
+    background-color: #A3C4EB;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.top img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+    object-fit: cover;
+    border: 3px solid #fff;
+    margin-bottom: 15px;
+}
+
+.top span {
+    color: #1b1803;
+    font-weight: bold;
+}
+
+/* KOLOM BAWAH (Tentang Saya & Video) */
+.bottom {
+    flex: 2 1 500px;
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #173B64;;
+}
+
+.bottom h2 {
+    color: #0078ff;
+    border-bottom: 2px solid #0078ff;
+    margin-bottom: 10px;
+}
+
+.bottom p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+video {
+    width: 100%;
+    max-width: 600px;
+    height: 340px;
+    border-radius: 10px;
+}
+
+/* CONTACT SECTION */
+.contact {
+    text-align: center;
+    padding: 40px 20px;
+    background-color:#173B64;
+    border-radius: 10px;
+}
+
+.contact h2 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.contact a {
+    display: inline-block;
+    margin: 8px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.1em;
+    transition: 0.3s;
+}
+
+.contact a:hover {
+    color: #ff4081;
+}
+
+.contact i {
+    margin-right: 8px;
+}
+
+.contact p span {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+    header {
+        text-align: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .countainer {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .left, .right {
+        width: 100%;
+    }
+
+    video {
+        height: 220px;
+    }
+}
