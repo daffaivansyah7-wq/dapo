@@ -1,0 +1,148 @@
+    <html>
+
+    <head>
+        <title>Portofolio Daffa</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+        <link href="asset/css/style.css" rel="stylesheet">
+        
+    </head>
+
+    <body class="bg-dark">
+        <?php include '_nav.php'; ?>
+        
+        <section class="bg-dark text-white py-5">
+            <div class="container text-center">
+                <h1 class="display-4 fw-bold">Hello, I'm <span class="text-primary">Daffa Rozan</span></h1>
+                <p class="lead mt-3"></p>
+            </div>
+        </section>
+
+        <section class="py-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-4 text-center foto-box" id="foto">
+                        <img src="asset/img/WhatsApp Image 2026-05-18 at 22.29.46.jpeg" class="img-fluid rounded"
+                            style="width: 200px; height: 200px; object-fit: cover;" alt="Foto Profil">
+                        <h5 class="text-white mt-3">Daffa Rozan Ivansyah</h5>
+                        <p class="text-white">SMKN 2 KRA</p>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="p-3 rounded shadow-sm mt-2 text-white about-box" id="about">
+                            <h1 class="fw-bold mb-3">🧑‍💻 About me</h1>
+                            <p class="lead text-white" style="font-family: 'Times New Roman', Times, serif;">
+                                Halo, saya Daffa Ivansyah, pelajar jurusan Rekayasa Perangkat Lunak (RPL). Saya berdomisili di
+                                Sawahan, Matesih. Saya suka olahraga sebagai hobi sehari-hari, dan mata pelajaran favorit saya<br>
+                                adalah PJOK. Selain itu saya juga suka belajar hal baru dan mencoba hal-hal yang berkaitan dengan
+                                dunia teknologi.
+                            </p>
+                            <p class="lead text-white" style="font-family: 'Times New Roman', Times, serif;">
+                                <strong>Riwayat Pendidikan:</strong><br>
+                                SDIT MTA Matesih (2016 - 2022)<br>
+                                SMPN1 Matesih (2022 - 2025)<br>
+                                SMKN2 Karanganyar, Jurusan Rekayasa Perangkat Lunak (2025 - Sekarang)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+       <section class="py-5">
+            <div class="container">
+                <h2 class="text-center text-primary fw-bold mb-4" style="font-family: monospace;">#Projek</h2>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="card bg-secondary text-white h-100 shadow-sm project-box">
+                            <img src="asset/img/gb.png" class="card-img-top" style="height: 200px; object-fit: cover;" alt="Projek 1">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Kasir</h5>
+                                <p class="card-text">Website ini untuk mempermudah proses administrasi toko</p>
+                                 <a href="http://localhost/tokokasir.php/index.php" target="_blank" class="btn btn-primary">
+                                    Lihat Website
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card bg-secondary text-white h-100 shadow-sm project-box">
+                            <img src="asset/img/gb1.png" class="card-img-top" style="height: 200px; object-fit: cover;" alt="Projek 1">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Website sekolah</h5>
+                                <p class="card-text">memudahkan untuk mencari informasi</p>
+                                <a href="http://localhost/Projek3/index.php" target="_blank" class="btn btn-primary">
+                                    Lihat Website
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card bg-secondary text-white h-100 shadow-sm project-box">
+                            <img src="asset/img/cafe2.png" class="card-img-top" style="height: 200px; object-fit: cover;" alt="Projek 3">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Website Toko Online</h5>
+                                <p class="card-text">Website ini mempermudah pelanggan keitka ingin memesan suatu menu di suatu toko</p>
+                                <a href="http://localhost/final_project/index.php" target="_blank" class="btn btn-primary">
+                                    Lihat Website
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-5">
+            <div class="container">
+                <h2 class="text-center text-primary fw-bold mb-4" style="font-family: monospace;">#Kemampuan</h2>
+                <div class="row g-3">
+                    <div class="col-md-4">
+                        <div class="d-flex align-items-center p-3 skill-box">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                                width="40" class="me-3" alt="HTML">
+                            <span class="text-primary fw-bold">HTML5/CSS3</span>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="d-flex align-items-center p-3  skill-box">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+                                width="40" class="me-3" alt="Bootstrap">
+                            <span class="text-primary fw-bold">Bootstrap</span>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="d-flex align-items-center p-3 skill-box">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="40"
+                                class="me-3" alt="PHP">
+                            <span class="text-primary fw-bold">PHP</span>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="d-flex align-items-center p-3 skill-box">
+                            <img src="https://api.iconify.design/mdi/microsoft-office.svg?color=%232B579A" width="40"
+                                class="me-3" alt="Microsoft Office">
+                            <span class="text-primary fw-bold">Microsoft Office</span>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="d-flex align-items-center p-3 skill-box">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+                                width="40" class="me-3" alt="MySQL">
+                            <span class="text-primary fw-bold">Database MySQL</span>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="d-flex align-items-center p-3 skill-box">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codeigniter/codeigniter-plain.svg" width="40"
+                                class="me-3" alt="CodeIgniter 3">
+                            <span class="text-primary fw-bold">codeigniter 3</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+    <?php include '_footer.php';?>
+
+    </html>
